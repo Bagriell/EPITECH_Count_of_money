@@ -1,0 +1,60 @@
+{
+  "news": [
+    {
+      "id": 0,
+      "tag": "bitcoin",
+      "title": "Bitcoin historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    },
+    {
+      "id": 1,
+      "tag": "ethereum",
+      "title": "Ethereum historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    },
+    {
+      "id": 2,
+      "tag": "dodgecoin",
+      "title": "Dodgecoin historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    },
+    {
+      "id": 3,
+      "tag": "litecoin",
+      "title": "Litecoin historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    },
+    {
+      "id": 4,
+      "tag": "machin truc",
+      "title": "Machin truc historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    },
+    {
+      "id": 5,
+      "tag": "cecicela",
+      "title": "Cecicela historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    },
+    {
+      "id": 6,
+      "tag": "dubeef",
+      "title": "Dubeef historic raise",
+      "img_link": "https://www.usine-digitale.fr/mediatheque/5/6/4/000759465_homePageUne/bitcoin-blockchain.jpg",
+      "body_content": "Indeed increadible raise thierry.We never saw that before this is truly amazing. I think i'm gonna change my wife and get a dog.",
+      "article_link": "https://coin24.fr/actualites/top-3-des-jetons-les-plus-solides-a-acheter-a-la-baisse/"
+    }
+  ]
+}

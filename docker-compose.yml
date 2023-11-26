@@ -1,0 +1,44 @@
+version: "3"
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sqldata:/var/lib/postgresql/data/pgdata
+    restart: unless-stopped
+  node-app:
+    container_name: api
+    build:
+      context: .
+      dockerfile: ./docker/api/Dockerfile
+    ports:
+      - "8000:8000"
+    restart: always
+    depends_on:
+      - "postgres"
+    env_file:
+      - .env
+    volumes:
+      - ./api:/api
+  front:
+    container_name: front
+    build:
+      context: .
+      dockerfile: ./docker/front/Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    depends_on:
+      - "postgres"
+      - "node-app"
+    volumes:
+      - ./front:/front
+      - /front/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true

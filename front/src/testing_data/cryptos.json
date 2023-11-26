@@ -1,0 +1,30 @@
+{
+  "title": "All cryptocurrencies",
+  "cols": ["icon", "name", "symbol", "price", "market cap", "volume"],
+  "rows": [
+    {
+      "name": "bitcoin",
+      "icon": "https://assets.coingecko.com/coins/images/1/thumb_2x/bitcoin.png?1547033579%202x",
+      "symbol": "BTC",
+      "market_cap": "$9998",
+      "price": "99$",
+      "volume": "9999$"
+    },
+    {
+      "name": "ethereum",
+      "icon": "https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880",
+      "symbol": "ETH",
+      "market_cap": "$9998",
+      "price": "99$",
+      "volume": "9999$"
+    },
+    {
+      "name": "Cardano",
+      "icon": "https://assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860",
+      "symbol": "LTC",
+      "market_cap": "$9998",
+      "price": "99$",
+      "volume": "9999$"
+    }
+  ]
+}
